@@ -1,0 +1,34 @@
+manifestVersion: 1
+name: "@mgreten/software-factory-run-audit"
+version: "2026.07.20.1"
+description: >
+  Deterministic run reconstruction and invariant-violation audit of a
+  @swamp/software-factory work item — stale SHAs across the artifact lineage,
+  impossible states, unresolved critical/high blockers, and retained resources —
+  rendered statically from recorded run data with no LLM involved, every flag
+  traceable to the record it came from. Optional retained-worktree and external
+  issue-tracker (Linear) correlation joins are pluggable, not required.
+
+repository: https://github.com/meagerfindings/swamp-software-factory-run-audit
+
+models: []
+workflows: []
+vaults: []
+drivers: []
+datastores: []
+reports:
+  - run_audit_report.ts
+
+additionalFiles:
+  - README.md
+  - LICENSE.txt
+
+labels:
+  - software-factory
+  - report
+  - audit
+  - invariants
+  - observability
+
+platforms: []
+dependencies: []
